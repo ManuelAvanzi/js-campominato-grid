@@ -30,22 +30,28 @@ span:hover{
 }
 
 .gridcontainer{
+    margin: 0 auto;
     width: 500px;
     height: 500px;
-    margin: 0 auto;
-    border: solid 5px black;
     display: flex;
     flex-wrap: wrap;
+    
 }
 .box{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(100% / 10);
-    height: calc(100% / 10);
     border:1px solid black;
 }
 
+.easy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border:5px solid black;
+}
 .medium {
     display: flex;
     justify-content: center;
@@ -60,5 +66,5 @@ span:hover{
     align-items: center;
     width: calc(100% / 7);
     height: calc(100% / 7);
-    border:5px solid black;
+    border:5px solid rgb(36, 35, 35);
 }
